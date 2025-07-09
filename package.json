@@ -1,0 +1,12 @@
+{
+  "name": "nodetut",
+  "version": "1.0.0",
+  "main": "prog_1st.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node prog_1st.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

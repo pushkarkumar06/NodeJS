@@ -1,0 +1,43 @@
+Node js is a run time environment for java script
+
+npm -> Node package manager
+
+What ever window object in java script so, that we can execute through the nodejs , bcz node basically was intevted to run web servers ,
+so if we give command like -> console.log(window); -> so in this vs cdoe terminal it will give me error -> the same thiing if i will write in brower console that will execute :)
+
+
+// npm init -> it create a kind of  environment  so when ever we tyy to run any js project so , we have to give first npm init -> so that node initialize that environment to execute the project 
+do ->  npm init <- to run any project 
+
+
+-----------------------------------------------PACKAGE.JSON---------------------------------------------------
+The package.json file is a core component of any Node.js or JavaScript-based project. It acts as a manifest for your project 
+and is essential for managing dependencies, scripts, project metadata, and much more.
+
+
+What is package.json?
+package.json is a JSON (JavaScript Object Notation) file that lives at the root of a Node.js project. It describes the project and contains metadata relevant to the project.
+
+commmand to install -> package.json <- ====> npm init 
+
+NEED of package.json 
+1 -> Dependency Management
+It lists the packages (libraries) your project depends on. This allows you (and others) to install them using a single command:
+
+2 -> Project Metadata
+It stores project-related data like:
+
+Name
+
+Version
+
+Description
+
+Author
+
+License
+
+Repository URL (like GitHub)
+
+3 -> Script Automation
+You can define custom scripts (e.g. start, test, build) that can be run using:
