@@ -1,0 +1,4 @@
+https://www.pushkarkumar.dev/
+
+1-> https => protocol   (tells browser how to communicate with server :)
+2->  Domain

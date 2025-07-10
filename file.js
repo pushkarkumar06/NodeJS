@@ -3,6 +3,7 @@
 
 
 const fs = require("fs");
+const os = require("os");      // this will give me the info. of my CPU
 
 // // sync 
 // fs.writeFileSync("./test.txt" , "hello I am pushkar");
@@ -19,10 +20,10 @@ const fs = require("fs");
 // const result = fs.readFileSync("./contacts.txt" , "utf-8");
 // console.log("this is my detail -> " , result);
 
-//ASYnc way to read the same file :)
+//ASync way to read the same file :)
 // fs.readFile("./contacts.txt" , "utf-8" , (err , result) => {
 //     if(err){
-//         console.log("there is some error :(");
+//         console.log("there is some error :");
 //     }
 //     else{
 //         console.log("this is my result" , result);
@@ -32,3 +33,5 @@ const fs = require("fs");
 // fs.appendFileSync("./test.txt" , new Date().getDate().toLocaleString());
 // fs.appendFileSync("./test.txt" , `Hey bor iam pushkar kumar\n`);
 
+
+console.log(os.cpus().length);
