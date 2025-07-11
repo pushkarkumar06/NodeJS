@@ -10,3 +10,13 @@
 1752120471743: /favicon.ico New request received 
 1752120476872: /about New request received 
 1752120476948: /favicon.ico New request received 
+1752202119661:GET /about New request received 
+1752202120037:GET /favicon.ico New request received 
+1752202126798:GET /signup New request received 
+1752202220030:GET /signup New request received 
+1752208369030:GET /signup New request received 
+1752208404327:GET / New request received 
+1752208404417:GET /favicon.ico New request received 
+1752208414063:GET /about New request received 
+1752208414117:GET /favicon.ico New request received 
+1752208422694:GET /signup New request received 

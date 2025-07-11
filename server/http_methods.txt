@@ -1,0 +1,6 @@
+-> GET => when you want to get some data from server :)
+
+-> POST => when you want to send and mutate some data in server    (we send some data to facbook and hope that it will get save in database) :
+
+-> PUT => You want to update the details of a user with id = 1 by sending updated data from the frontend or API client (like postman) :)
+
