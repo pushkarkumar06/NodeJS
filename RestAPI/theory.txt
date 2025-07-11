@@ -1,0 +1,58 @@
+
+-------->>>>> A REST API (Representational State Transfer - Application Programming Interface) is a standardized way to allow communication between client and server using HTTP methods. It is widely used in web development and mobile apps to connect frontends with backends.
+
+🔹 WHAT IS REST API?
+REST (Representational State Transfer) is an architectural style for designing networked applications.
+A REST API allows systems to interact using standard HTTP methods like:
+
+GET — Retrieve data
+
+POST — Send new data
+
+PUT — Update data
+
+DELETE — Delete data
+
+It uses stateless communication — meaning each request contains all information needed; the server doesn’t remember previous requests.
+
+
+🔹 WHY DO WE USE REST API?
+✅ Benefits:
+Platform Independent (works with mobile, web, desktop apps)
+
+Stateless and Scalable
+
+Lightweight (uses JSON or XML)
+
+Easy to Use (based on standard HTTP methods)
+
+Separation of Concerns (Frontend & Backend are decoupled)
+
+
+
+
+🔹 HOW CLIENT & SERVER COMMUNICATE (FLOW)
+Client (frontend): Sends HTTP request to API endpoint.
+
+Server (backend): Processes request, performs logic/database interaction.
+
+Server: Sends back an HTTP response (usually in JSON).
+
+Client: Updates UI using the response.
+
+
+
+✅ SUMMARY
+REST API lets clients and servers communicate using HTTP and a consistent structure.
+
+It uses CRUD principles mapped to HTTP methods.
+
+It is stateless, scalable, and works with any client.
+
+Most web and mobile apps today use REST APIs for backend interaction.
+
+
+
+STATELESS ===> In REST, "stateless" means that each request from the client to the server
+            must contain all the information needed to understand and process the request, 
+            and the server does not store any memory (state) of previous interactions.........

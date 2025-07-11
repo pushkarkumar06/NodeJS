@@ -4,3 +4,4 @@
 
 -> PUT => You want to update the details of a user with id = 1 by sending updated data from the frontend or API client (like postman) :)
 
+-> DELETE => Delete a specific task

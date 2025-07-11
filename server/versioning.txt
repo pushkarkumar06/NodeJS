@@ -1,0 +1,17 @@
+Version
+
+^4.18.2
+
+1st -> 4
+2nd part -> 18
+3rd part -> 2
+
+
+// 3rd part (last part) => Minor fixes (optional)
+
+//2nd part (Recommended Bug fix (mainly for security bug fix))
+
+//3rd part Major update (extreamly recommended for users)
+
+^ => Install all Recommended and Minor Fixes Automatically <-:->
+

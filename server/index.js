@@ -47,8 +47,6 @@ app.get("/about/signup" , (req , res) => {
 
 
 
-
-
 // and here we have created our port number on which my server will wait for my request :) 
 app.listen(3030 , () => {
     console.log("server is listining :)");
