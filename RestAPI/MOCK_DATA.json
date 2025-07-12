@@ -7998,5 +7998,20 @@
         "email": "golenanerr@npr.org",
         "gender": "Male",
         "job_title": "Pharmacist"
+    },
+    {
+        "first_name": "pushkar",
+        "last_name": "kumar",
+        "email": "pushkarkmr06@gmail.com",
+        "gender": "male",
+        "job_title ": "SDE",
+        "id": 1001
+    },
+    {
+        "first_name": "Laxmi",
+        "last_name": "Rani",
+        "email": "laxmi@gmail.com",
+        "job_title": "amazon",
+        "id": 1002
     }
 ]
