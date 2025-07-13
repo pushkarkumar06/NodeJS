@@ -4,9 +4,12 @@
   "main": "prog_1st.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node prog_1st.js"
+    "start": "nodemon prog_1st.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
 }

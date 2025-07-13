@@ -1,0 +1,34 @@
+MongoDB and Node.js are commonly used together to build modern web applications because they naturally complement each other:
+
+
+
+🔹 Relation Between MongoDB and Node.js
+    MongoDB	                                                            Node.js
+-> A NoSQL database	                                        -> A JavaScript runtime for building servers
+-> Stores data as BSON/JSON-like documents	                -> Handles data as JavaScript objects
+-> Used for storing data	                                -> Used for processing and serving data
+-> Offers fast, flexible, schema-less storage	            -> Offers event-driven, non-blocking server environment
+
+
+
+
+🔹 How They Work Together
+-> Node.js server receives a request (e.g., from a form).
+
+-> It uses a MongoDB driver or ODM (like Mongoose) to interact with MongoDB.
+
+-> MongoDB stores or fetches data and sends it back.
+
+-> Node.js processes that data and sends a response to the client.
+
+
+
+🔹 Why They’re Commonly Used Together
+-> Both use JavaScript/JSON-style data.
+
+-> Node.js is asynchronous and works well with MongoDB’s fast I/O.
+
+-> Mongoose makes it easy to define models/schemas.
+
+-> Perfect for building REST APIs, CRUD apps, real-time apps, etc.
+

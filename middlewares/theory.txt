@@ -1,0 +1,28 @@
+===> Middleware functions are functions that have access to the request object(req) , the response object (res) , and the next 
+    Middleware function in the applications request response cycle . the next middleware function in commonly denotes by a variable named next ....
+
+===> Middleware functions can perform the following tasks :->
+    * Execute any code.
+    * Mkae change to the request and the response abject .
+    * End the request-response cycle.
+    * Call the next middleware function in hte stack.
+
+
+
+
+===> Middleware in web development (especially in frameworks like Express.js) refers to functions that execute during the lifecycle of a request to the server, before the final response is sent. 
+    Middleware has access to the request (req) object, the response (res) object, and the next function in the request-response cycle.
+
+
+
+What is next() in the middleware ===>  In middleware, **next** is a callback function that passes control to the next middleware function in the stack. 
+                If you don’t call next(), the request will hang and never reach the route handler or the next middleware.
+
+It's a function provided by Express.
+
+*When called, it tells Express:
+➤ “I’m done with this middleware, move to the next one.”
+
+
+
+what is the meaning of parse -> Parsing means analyzing and converting data from one format into a structure that your program can understand and work with (usually a JavaScript object or variable).

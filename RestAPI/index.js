@@ -6,7 +6,19 @@ const { error } = require("console");
 const app = express();
 
 //middleware : plugin       (which put the data from frontend to body)
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }));       
+
+app.use((req , res , next) => {
+    console.log("hello from middleware 1");
+    next();
+});
+
+app.use((req , res , next) => {
+    console.log("Hello from middleware 2");
+    return res.send("it is pushkar Kumar");
+    // next();
+});
+
 
 app.get("/api/users", (req, res) => {
     return res.json(users);
